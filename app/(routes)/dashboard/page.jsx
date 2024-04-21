@@ -8,6 +8,7 @@ import { Budgets, Expenses } from '@/utils/schema';
 import BarChartDashboard from './_components/BarChartDashboard';
 import BudgetItem from './budgets/_components/BudgetItem';
 import ExpenseListTable from './expenses/_components/ExpenseListTable';
+import Head from 'next/head';
 function Dashboard() {
   const {user}=useUser();
 
@@ -73,6 +74,11 @@ function Dashboard() {
 
           </div>
           <div className='grid gap-5'>
+            <div>
+              <Head>
+              <script type='text/javascript' src='//pl23123991.profitablegatecpm.com/59/4a/39/594a3977a9246b4cb699f531c6dfb86f.js'></script>
+              </Head>
+            </div>
             <h2 className='font-bold text-lg'>Latest Budgets</h2>
               {budgetList?.length>0?budgetList.map((budget,index)=>(
                 <BudgetItem budget={budget} key={index} />
