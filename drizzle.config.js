@@ -3,6 +3,6 @@ export default {
     schema: "./utils/schema.jsx",
     driver: 'pg',
     dbCredentials: {
-      connectionString: process.env.NEXT_PUBLIC_DATABASE_URL,
+      connectionString: 'postgresql://accounts:ypvN2ke3PGFE@ep-weathered-heart-a58wmzem.us-east-2.aws.neon.tech/Expenses-Tracker?sslmode=require',
     }
   };

@@ -14,9 +14,9 @@ export default function RootLayout({ children }) {
   return (
     <ClerkProvider>
     <html lang="en">
-      <head>
+      {/* <head>
       <script type='text/javascript' src='//pl23123991.profitablegatecpm.com/59/4a/39/594a3977a9246b4cb699f531c6dfb86f.js'></script>
-      </head>
+      </head> */}
       <body className={outfit.className}>
       <Toaster />
         {children}</body>
