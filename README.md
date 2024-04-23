@@ -1,3 +1,5 @@
+
+![Expense Tracker App](https://github.com/rrs301/Expense-Tracker/assets/20216436/3e8c0001-2dbc-4a6a-ac66-8f108d54e950)
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
